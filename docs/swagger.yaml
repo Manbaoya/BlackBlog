@@ -1,0 +1,15 @@
+basePath: localhost:8080
+host: "8080"
+info:
+  contact:
+    email: support@swagger.io
+    name: 满宝呀
+    url: http://www.swagger.io/support
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: BLACKBLOG接口文档
+  version: "1.0"
+paths: {}
+swagger: "2.0"

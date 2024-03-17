@@ -1,0 +1,24 @@
+#服务器基本信息
+Server:
+  Port: "8080" #服务器端口
+  Address: "localhost" #服务器地址
+
+#数据库
+DataBase:
+  User: "root"
+  Password: "123456"
+  Name: "Black"
+  Port: "3306"
+  Charset: "utf8mb4"
+  ParseTime: "True"
+  Loc: "Local"
+  Limit: 15
+
+#日志
+Log:
+  MaxSize:    1
+  MaxBackups: 5
+  MaxAge:     30
+  Compress:   false
+
+

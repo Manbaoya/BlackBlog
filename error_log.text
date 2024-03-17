@@ -1,0 +1,461 @@
+2023-08-29T18:42:44.618+0800	ERROR	BLACKBLOG/main.go:12	撞大运咯%!(EXTRA string=h)
+2023-08-30T10:06:21.224+0800	ERROR	BLACKBLOG/main.go:14	撞大运咯
+2023-08-30T10:09:41.253+0800	ERROR	BLACKBLOG/main.go:14	撞大运咯
+2023-08-30T11:14:19.530+0800	ERROR	BLACKBLOG/main.go:14	撞大运咯
+2023-08-30T11:15:36.506+0800	ERROR	BLACKBLOG/main.go:14	撞大运咯
+2023-08-30T14:33:42.219+0800	ERROR	BLACKBLOG/main.go:14	撞大运咯
+2023-08-30T14:33:42.260+0800	ERROR	dao/add.go:8	新增数据失败:%!(EXTRA string=Error 1062 (23000): Duplicate entry '1' for key 'users.PRIMARY')
+2023-08-30T14:33:42.263+0800	ERROR	dao/alter.go:8	修改数据失败：%!(EXTRA string=Error 1054 (42S22): Unknown column 'id=' in 'where clause')
+2023-08-30T15:07:21.648+0800	ERROR	BLACKBLOG/main.go:14	撞大运咯
+2023-08-30T15:07:21.670+0800	ERROR	dao/add.go:8	新增数据失败:%!(EXTRA string=Error 1062 (23000): Duplicate entry '1' for key 'users.PRIMARY')
+2023-08-30T15:11:27.675+0800	ERROR	BLACKBLOG/main.go:14	撞大运咯
+2023-08-30T15:19:01.588+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:19:53.124+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:19:53.154+0800	ERROR	dao/add.go:8	新增数据失败:%!(EXTRA string=Error 1062 (23000): Duplicate entry '1' for key 'users.PRIMARY')
+2023-08-30T15:23:43.676+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:24:52.021+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:25:20.723+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:26:01.172+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:26:34.726+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:40:20.665+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:42:09.925+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:42:40.629+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:45:19.183+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:46:53.584+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:47:36.721+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:48:04.872+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:48:31.435+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T15:49:35.778+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T16:51:48.143+0800	ERROR	BLACKBLOG/main.go:14	撞大运咯
+2023-08-30T16:52:51.812+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T16:55:04.590+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T16:55:58.039+0800	ERROR	user/login.go:17	绑定数据失败:EOF
+2023-08-30T16:55:59.776+0800	ERROR	user/login.go:17	绑定数据失败:EOF
+2023-08-30T16:56:00.944+0800	ERROR	user/login.go:17	绑定数据失败:EOF
+2023-08-30T16:56:59.461+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T19:39:55.539+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T19:48:43.535+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T19:50:38.564+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-30T21:29:54.768+0800	ERROR	BLACKBLOG/main.go:17	撞大运咯
+2023-08-30T21:41:49.888+0800	ERROR	BLACKBLOG/main.go:17	撞大运咯
+2023-08-31T18:56:01.569+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T19:57:18.167+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T19:57:55.067+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T21:37:55.990+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T21:43:21.687+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T21:44:38.238+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T21:44:38.355+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 135\r\nContent-Type: application/json\r\nPostman-Token: 9ab246ea-2ba5-41fa-820e-cce275012865\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 11 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x14edac0, 0xb3840e8})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x14ed140, 0xb0900a0, 0x82}, 0x2)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x168f4a4, 0xb020070}, {0x1536680, 0xb0900a0, 0x99}, {0x14ed200, 0x1a54670})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xb090060)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xb39a030, 0xb090060)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xb090060, {0x1536680, 0xb0900a0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xb38c080, {0x0, {0xb408420, 0xa}, {0xb2ae080, 0x3c}, {0xb408434, 0x3}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xb408420, 0xa}, {0xb2ae080, 0x3c}, {0xb408430, 0x4}, {0xb408434, 0x3}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x2db\nBLACKBLOG/app/api/user.Register(0xb41c240)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xb41c240)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xb41c240)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xb41c240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xb41c240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xb3b20e0, 0xb41c240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xb3b20e0, {0x168ef20, 0xb42c0a0}, 0xb414100)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xb3a80a0}, {0x168ef20, 0xb42c0a0}, 0xb414100)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xb352f60, {0x168f4e4, 0xb38e228})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T21:45:36.149+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T21:45:36.280+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 137\r\nContent-Type: application/json\r\nPostman-Token: 3005ec0b-8b2e-44de-a792-210abcf02b4c\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 11 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x14edac0, 0xb3843e0})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x14ed140, 0xb090580, 0x82}, 0x3)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x168f4a4, 0xb020070}, {0x1536680, 0xb090580, 0x99}, {0x14ed200, 0x1a54678})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xb090540)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xb39a030, 0xb090540)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xb090540, {0x1536680, 0xb090580})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xb38c080, {0x0, {0xb08e130, 0xa}, {0xb2ae440, 0x3c}, {0xb08e146, 0x3}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xb08e130, 0xa}, {0xb2ae440, 0x3c}, {0xb08e140, 0x6}, {0xb08e146, 0x3}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x2db\nBLACKBLOG/app/api/user.Register(0xb41c240)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xb41c240)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xb41c240)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xb41c240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xb41c240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xb3b20e0, 0xb41c240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xb3b20e0, {0x168ef20, 0xb13e140}, 0xb36a000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xb3a80a0}, {0x168ef20, 0xb13e140}, 0xb36a000)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xb352f60, {0x168f4e4, 0xb38e228})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T21:45:45.527+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T21:45:45.639+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 145\r\nContent-Type: application/json\r\nPostman-Token: 7668f69a-ae30-456c-a031-05dd03505a42\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 11 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x14edac0, 0xb40e8c8})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x14ed140, 0xb2f4c20, 0x82}, 0x4)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x168f4a4, 0xb020070}, {0x1536680, 0xb2f4c20, 0x99}, {0x14ed200, 0x1a54680})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xb2f4be0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xb39a030, 0xb2f4be0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xb2f4be0, {0x1536680, 0xb2f4c20})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xb38c080, {0x0, {0xb3900b0, 0xa}, {0xb42a480, 0x3c}, {0xb3900d0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xb3900b0, 0xa}, {0xb42a480, 0x3c}, {0xb3900c0, 0x6}, {0xb3900d0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x2db\nBLACKBLOG/app/api/user.Register(0xb41c000)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xb41c000)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xb41c000)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xb41c000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xb41c000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xb3b20e0, 0xb41c000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xb3b20e0, {0x168ef20, 0xb3a8140}, 0xb394100)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xb3a80a0}, {0x168ef20, 0xb3a8140}, 0xb394100)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xb352f60, {0x168f4e4, 0xb38e228})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T21:50:08.720+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T21:50:08.836+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 136\r\nContent-Type: application/json\r\nPostman-Token: 5df3041e-fc11-4f92-b581-0eea9b4089e9\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 11 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x14edac0, 0xb40e898})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x14ed140, 0xb2f4c60, 0x82}, 0x5)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x168f4a4, 0xb020070}, {0x1536680, 0xb2f4c60, 0x99}, {0x14ed200, 0x1a54688})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xb2f4c20)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xb39a030, 0xb2f4c20)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xb2f4c20, {0x1536680, 0xb2f4c60})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xb38c080, {0x0, {0x1a54a00, 0x1}, {0xb42a3c0, 0x3c}, {0xb3900c0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0x1a54a00, 0x1}, {0xb42a3c0, 0x3c}, {0xb3900b6, 0x6}, {0xb3900c0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x2db\nBLACKBLOG/app/api/user.Register(0xb41c000)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xb41c000)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xb41c000)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xb41c000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xb41c000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xb3b20e0, 0xb41c000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xb3b20e0, {0x168ef20, 0xb3a8140}, 0xb394100)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xb3a80a0}, {0x168ef20, 0xb3a8140}, 0xb394100)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xb352f60, {0x168f4e4, 0xb38e228})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T21:50:41.471+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T21:50:41.605+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 146\r\nContent-Type: application/json\r\nPostman-Token: 2ebfaff3-5a5e-4e90-b881-ad4d66cdfc99\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 11 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x14edac0, 0xb3261d0})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x14ed140, 0xb38c3e0, 0x82}, 0x6)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x168f4a4, 0xb020070}, {0x1536680, 0xb38c3e0, 0x99}, {0x14ed200, 0x1a54690})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xb38c380)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xb39a030, 0xb38c380)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xb38c380, {0x1536680, 0xb38c3e0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xb38c080, {0x0, {0xb08e080, 0x9}, {0xb39c680, 0x3c}, {0xb08e0a0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xb08e080, 0x9}, {0xb39c680, 0x3c}, {0xb08e098, 0x6}, {0xb08e0a0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x2db\nBLACKBLOG/app/api/user.Register(0xb3961b0)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xb3961b0)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xb3961b0)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xb3961b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xb3961b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xb3b20e0, 0xb3961b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xb3b20e0, {0x168ef20, 0xb13e0a0}, 0xb36a000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xb3a80a0}, {0x168ef20, 0xb13e0a0}, 0xb36a000)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xb352f60, {0x168f4e4, 0xb38e228})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T21:56:51.948+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:02:08.246+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:02:08.351+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 146\r\nContent-Type: application/json\r\nPostman-Token: 5b06f609-125b-425e-ae1f-434c8335fbd9\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 56 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x15adac0, 0xb40a9d8})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x15ad140, 0xb426800, 0x82}, 0x7)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x174f4a4, 0xb49c010}, {0x15f6680, 0xb426800, 0x99}, {0x15ad200, 0x1b14698})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xb4267c0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xb79a030, 0xb4267c0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xb4267c0, {0x15f6680, 0xb426800})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xb78c080, {0x0, {0xb4203b0, 0x9}, {0xb41e640, 0x3c}, {0xb4203d0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xb4203b0, 0x9}, {0xb41e640, 0x3c}, {0xb4203c8, 0x6}, {0xb4203d0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x2db\nBLACKBLOG/app/api/user.Register(0xb47c1b0)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xb47c1b0)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xb47c1b0)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xb47c1b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xb47c1b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xb82a0e0, 0xb47c1b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xb82a0e0, {0x174ef20, 0xb882000}, 0xb73e000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xb85a000}, {0x174ef20, 0xb882000}, 0xb73e000)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xb810240, {0x174f4e4, 0xb80c1b0})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T22:03:59.158+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:04:03.963+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:04:04.058+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 146\r\nContent-Type: application/json\r\nPostman-Token: 0b929f37-bc8b-418a-83f0-2cffeb95ae2f\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 43 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0xdadac0, 0xb002948})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0xdad140, 0xb0166c0, 0x82}, 0x8)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0xf4f414, 0xac9c010}, {0xdf6680, 0xb0166c0, 0x99}, {0xdad200, 0x13146a0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xb016680)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xaf9a030, 0xb016680)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xb016680, {0xdf6680, 0xb0166c0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xaf8c080, {0x0, {0xb000310, 0x9}, {0xb01a340, 0x3c}, {0xb000330, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xb000310, 0x9}, {0xb01a340, 0x3c}, {0xb000328, 0x6}, {0xb000330, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x24e\nBLACKBLOG/app/api/user.Register(0xb022120)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xb022120)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xb022120)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xb022120)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xb022120)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xafc00e0, 0xb022120)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xafc00e0, {0xf4ee90, 0xb02e000}, 0xaf94200)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xafa80a0}, {0xf4ee90, 0xb02e000}, 0xaf94200)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xafac240, {0xf4f454, 0xaf8e270})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T22:04:50.861+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:04:55.955+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:06:29.038+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:07:38.776+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:20:54.195+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:21:01.885+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:21:02.172+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 146\r\nContent-Type: application/json\r\nPostman-Token: 2f7093ce-2a9a-4d4b-8c58-70ec47e971c8\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 50 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x105dac0, 0xb41a8f0})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x105d140, 0xb4226c0, 0x82}, 0x9)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x11ff4a4, 0xb020070}, {0x10a6680, 0xb4226c0, 0x99}, {0x105d200, 0x15c46a8})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xb422680)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xb39a030, 0xb422680)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xb422680, {0x10a6680, 0xb4226c0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xb38c080, {0x0, {0xb412180, 0x9}, {0xb400500, 0x3c}, {0xb4121a0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xb412180, 0x9}, {0xb400500, 0x3c}, {0xb412198, 0x6}, {0xb4121a0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x2db\nBLACKBLOG/app/api/user.Register(0xb424240)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xb424240)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xb424240)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xb424240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xb424240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xb0716c0, 0xb424240)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xb0716c0, {0x11fef20, 0xb432000}, 0xb376000)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xb13e3c0}, {0x11fef20, 0xb432000}, 0xb376000)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xb0aa9c0, {0x11ff4e4, 0xb325c20})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T22:24:06.163+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:24:22.016+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:24:22.124+0800	ERROR	dao/add.go:11	新增数据失败:record not found
+2023-08-31T22:25:06.864+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:25:10.385+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:25:10.503+0800	ERROR	dao/add.go:11	新增数据失败:record not found
+2023-08-31T22:26:05.275+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:26:10.317+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:26:10.435+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 146\r\nContent-Type: application/json\r\nPostman-Token: e1fd94ce-8e59-4c87-b425-b84938e9f703\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 39 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0xaddac0, 0xa8a89b0})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0xadd140, 0xa890740, 0x82}, 0xa)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0xc7f4a4, 0xa820070}, {0xb26680, 0xa890740, 0x99}, {0xadd200, 0x10446b0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xa890700)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xab9a030, 0xa890700)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xa890700, {0xb26680, 0xa890740})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xab8c080, {0x0, {0xa88e340, 0x9}, {0xa8b8380, 0x3c}, {0xa88e360, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xa88e340, 0x9}, {0xa8b8380, 0x3c}, {0xa88e358, 0x6}, {0xa88e360, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:55 +0x2db\nBLACKBLOG/app/api/user.Register(0xa8be120)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xa8be120)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xa8be120)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xa8be120)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xa8be120)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xac2c0e0, 0xa8be120)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xac2c0e0, {0xc7ef20, 0xa8c8000}, 0xac40180)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xac5a000}, {0xc7ef20, 0xa8c8000}, 0xac40180)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xac221e0, {0xc7f4e4, 0xac16168})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-08-31T22:27:07.091+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:36:46.071+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:40:16.942+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-08-31T22:40:25.790+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-08-31T22:40:25.872+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 146\r\nContent-Type: application/json\r\nPostman-Token: da6daa62-07e5-46f0-a4d7-5eac8c28ea52\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 34 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x6ddac0, 0xa4a89c8})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x6dd140, 0xa490800, 0x82}, 0xb)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x87f4a4, 0xa420070}, {0x726680, 0xa490800, 0x99}, {0x6dd200, 0xc446b8})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xa4907c0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xa81a030, 0xa4907c0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xa4907c0, {0x726680, 0xa490800})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xa80c080, {0x0, {0xa48e370, 0x9}, {0xa4b8400, 0x3c}, {0xa48e390, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xa48e370, 0x9}, {0xa4b8400, 0x3c}, {0xa48e388, 0x6}, {0xa48e390, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:56 +0x2db\nBLACKBLOG/app/api/user.Register(0xa4d0090)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xa4d0090)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xa4d0090)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xa4d0090)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xa4d0090)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xa8400e0, 0xa4d0090)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xa8400e0, {0x87ef20, 0xa4d8000}, 0xa4ba180)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xa8280a0}, {0x87ef20, 0xa4d8000}, 0xa4ba180)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xa4b2900, {0x87f4e4, 0xa80e270})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-09-01T14:20:36.469+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T14:21:29.424+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T14:21:29.543+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 146\r\nContent-Type: application/json\r\nPostman-Token: e96c8d81-ef6d-46d2-a787-2d5c06043cd7\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 24 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x79dac0, 0xa79a088})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x79d140, 0xa4900e0, 0x82}, 0xc)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x93f4a4, 0xa420070}, {0x7e6680, 0xa4900e0, 0x99}, {0x79d200, 0xd046c0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xa4900a0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xa81a030, 0xa4900a0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xa4900a0, {0x7e6680, 0xa4900e0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...]({0x0, {0xa48e270, 0x9}, {0xa4be080, 0x3c}, {0xa48e290, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:8 +0x7b\nBLACKBLOG/controller/user.Register({{0xa48e270, 0x9}, {0xa4be080, 0x3c}, {0xa48e288, 0x6}, {0xa48e290, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:56 +0x2d1\nBLACKBLOG/app/api/user.Register(0xa4b41b0)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xa4b41b0)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xa4b41b0)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xa4b41b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xa4b41b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xa842000, 0xa4b41b0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xa842000, {0x93ef20, 0xa4e2000}, 0xa4c6080)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xa8280a0}, {0x93ef20, 0xa4e2000}, 0xa4c6080)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xa82c180, {0x93f4e4, 0xa80e228})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-09-01T14:28:06.235+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T14:28:15.046+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T14:28:15.232+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 146\r\nContent-Type: application/json\r\nPostman-Token: 228f387e-5e79-466b-905d-dfdf5deb8ed2\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 5 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x7cdac0, 0xa80a9e8})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x7cd140, 0xa826840, 0x82}, 0xd)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x96f4a4, 0xa89c010}, {0x816680, 0xa826840, 0x99}, {0x7cd200, 0xd346c8})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xa826800)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xab9a030, 0xa826800)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xa826800, {0x816680, 0xa826840})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xab8c080, {0x0, {0xa8203d0, 0x9}, {0xa81e700, 0x3c}, {0xa8203f0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xa8203d0, 0x9}, {0xa81e700, 0x3c}, {0xa8203e8, 0x6}, {0xa8203f0, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:56 +0x2db\nBLACKBLOG/app/api/user.Register(0xac80090)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xac80090)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xac80090)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xac80090)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xac80090)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xabb20e0, 0xac80090)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xabb20e0, {0x96ef20, 0xac86000}, 0xa86c180)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xaba80a0}, {0x96ef20, 0xac86000}, 0xa86c180)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xa800960, {0x96f4e4, 0xab8e228})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-09-01T14:54:19.030+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:11:47.724+0800	ERROR	dao/connect.go:18	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-09-01T20:11:47.726+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:18:10.015+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:18:22.503+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:18:22.605+0800	ERROR	log/log.go:111	[Recovery from panic]	{"error": "reflect: reflect.Value.SetInt using unaddressable value", "request": "POST /ul/register HTTP/1.1\r\nHost: localhost:8080\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VybmFtZSI6IuWViuWViuWViiIsIlBhc3N3b3JkIjoiMjM0NTY3IiwiaXNzIjoiTWFuQmFvIiwiZXhwIjoxNjg0MTQ4ODQ3fQ.inDid1WyivSgTwTTvlkQka6IOGQcH3V4QKfXVgSQth0\r\nConnection: keep-alive\r\nContent-Length: 139\r\nContent-Type: application/json\r\nPostman-Token: a85d3948-e640-4ee4-be51-8eb397ecdcc0\r\nUser-Agent: PostmanRuntime/7.29.2\r\n\r\n", "stack": "goroutine 50 [running]:\nruntime/debug.Stack()\n\tD:/go/src/runtime/debug/stack.go:24 +0x83\nBLACKBLOG/log.Recovery.func1.1()\n\tD:/GolandProjects/BLACKBLOG/log/log.go:114 +0x300\npanic({0x164dac0, 0xaf849c8})\n\tD:/go/src/runtime/panic.go:884 +0x1b7\nreflect.flag.mustBeAssignableSlow(0x82)\n\tD:/go/src/reflect/value.go:262 +0xa5\nreflect.flag.mustBeAssignable(...)\n\tD:/go/src/reflect/value.go:249\nreflect.Value.SetInt({0x164d140, 0xaf8c8c0, 0x82}, 0xe)\n\tD:/go/src/reflect/value.go:2309 +0x33\ngorm.io/gorm/schema.(*Field).setupValuerAndSetter.func8({0x17ef4b4, 0xac9c010}, {0x1696680, 0xaf8c8c0, 0x99}, {0x164d200, 0x1bb46d0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/schema/field.go:624 +0x11db\ngorm.io/gorm/callbacks.Create.func1(0xaf8c880)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks/create.go:147 +0x61a\ngorm.io/gorm.(*processor).Execute(0xaf9a030, 0xaf8c880)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/callbacks.go:130 +0x397\ngorm.io/gorm.(*DB).Create(0xaf8c880, {0x1696680, 0xaf8c8c0})\n\tC:/Users/29732/sdk/go1.18/pkg/mod/gorm.io/gorm@v1.25.4/finisher_api.go:24 +0xaa\nBLACKBLOG/dao.Add[...](0xaf8c080, {0x0, {0xaf901f0, 0x2}, {0xaf9c640, 0x3c}, {0xaf90210, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/dao/add.go:9 +0x79\nBLACKBLOG/controller/user.Register({{0xaf901f0, 0x2}, {0xaf9c640, 0x3c}, {0xaf90200, 0x6}, {0xaf90210, 0xb}})\n\tD:/GolandProjects/BLACKBLOG/controller/user/register.go:56 +0x2c4\nBLACKBLOG/app/api/user.Register(0xaf962d0)\n\tD:/GolandProjects/BLACKBLOG/app/api/user/register.go:19 +0x143\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.Recovery.func1(0xaf962d0)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:126 +0x88\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\nBLACKBLOG/log.GinLogger.func1(0xaf962d0)\n\tD:/GolandProjects/BLACKBLOG/log/log.go:69 +0x81\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.CustomRecoveryWithWriter.func1(0xaf962d0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 +0x89\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.LoggerWithConfig.func1(0xaf962d0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 +0xa4\ngithub.com/gin-gonic/gin.(*Context).Next(...)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174\ngithub.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xacc37a0, 0xaf962d0)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 +0x52b\ngithub.com/gin-gonic/gin.(*Engine).ServeHTTP(0xacc37a0, {0x17eef30, 0xafa80a0}, 0xaf94100)\n\tC:/Users/29732/sdk/go1.18/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 +0x1c9\nnet/http.serverHandler.ServeHTTP({0xad143c0}, {0x17eef30, 0xafa80a0}, 0xaf94100)\n\tD:/go/src/net/http/server.go:2936 +0x293\nnet/http.(*conn).serve(0xb022480, {0x17ef4f4, 0xaf03c20})\n\tD:/go/src/net/http/server.go:1995 +0x66d\ncreated by net/http.(*Server).Serve\n\tD:/go/src/net/http/server.go:3089 +0x498\n"}
+2023-09-01T20:20:24.419+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:20:42.649+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:43:32.908+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:43:44.900+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:44:28.113+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:44:41.320+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:46:29.320+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:48:24.171+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:48:37.268+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:50:37.827+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:50:47.519+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:58:35.607+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T20:58:45.262+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:58:50.878+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T20:58:50.880+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T21:00:44.642+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T21:00:49.343+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T21:00:54.769+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T21:00:54.772+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-01T22:12:10.228+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T22:13:15.355+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '}' looking for beginning of object key string
+2023-09-01T22:26:03.445+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-01T22:34:02.494+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-02T18:43:46.438+0800	ERROR	dao/connect.go:18	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-09-02T18:43:46.441+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-02T18:49:17.838+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-02T18:49:21.635+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T18:49:21.636+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T18:52:19.723+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:52:55.579+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:53:14.344+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:53:23.073+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:53:24.268+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:54:12.050+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:54:13.769+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:54:34.194+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:54:35.615+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '/' after object key:value pair
+2023-09-02T18:57:40.226+0800	ERROR	user/alter.go:13	绑定数据失败:invalid character '/' looking for beginning of object key string
+2023-09-02T18:57:50.817+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T18:57:50.927+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T19:33:55.960+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-02T20:11:33.322+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-02T20:12:53.594+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T20:13:09.821+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T20:16:15.166+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T20:16:15.168+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T20:16:31.379+0800	ERROR	user/login.go:13	绑定数据失败:invalid character '}' looking for beginning of object key string
+2023-09-02T21:00:23.469+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-02T21:01:22.832+0800	ERROR	article/create.go:14	绑定数据失败:Key: 'CreateData.Title' Error:Field validation for 'Title' failed on the 'required' tag
+2023-09-02T21:05:18.812+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T21:05:18.818+0800	ERROR	dao/add.go:11	新增数据失败:Error 1364 (HY000): Field 'id' doesn't have a default value
+2023-09-02T21:06:02.464+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T21:06:24.891+0800	ERROR	article/create.go:14	绑定数据失败:Key: 'CreateData.Title' Error:Field validation for 'Title' failed on the 'required' tag
+2023-09-02T21:06:39.204+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T21:32:16.598+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-02T21:33:56.537+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-02T21:35:18.033+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-03T13:35:39.082+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T13:46:29.738+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:11:12.999+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:29:31.433+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:31:08.633+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:33:37.770+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:38:02.170+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:39:56.131+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:43:57.307+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:45:45.159+0800	ERROR	article/query.go:35	字符串转换时间失败:parsing time "2023-9-1" as "2006-01-02 15:04:05": cannot parse "9-1" as "01"
+2023-09-03T15:45:45.159+0800	ERROR	article/query.go:39	字符串转换时间失败:parsing time "2023-9-4" as "2006-01-02 15:04:05": cannot parse "9-4" as "01"
+2023-09-03T15:46:40.556+0800	ERROR	article/query.go:35	字符串转换时间失败:parsing time "2023-09-01" as "2006-01-02 15:04:05": cannot parse "" as "15"
+2023-09-03T15:46:40.558+0800	ERROR	article/query.go:39	字符串转换时间失败:parsing time "2023-09-04" as "2006-01-02 15:04:05": cannot parse "" as "15"
+2023-09-03T15:48:59.842+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T15:57:41.887+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:13:38.431+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:14:17.393+0800	ERROR	article/query.go:42	字符串转换时间失败:parsing time "" as "2006-01-02 15:04:05": cannot parse "" as "2006"
+2023-09-03T16:14:26.660+0800	ERROR	article/query.go:42	字符串转换时间失败:parsing time "" as "2006-01-02 15:04:05": cannot parse "" as "2006"
+2023-09-03T16:17:51.707+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:17:56.144+0800	ERROR	article/query.go:42	字符串转换时间失败:parsing time "" as "2006-01-02 15:04:05": cannot parse "" as "2006"
+2023-09-03T16:22:57.283+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:23:01.099+0800	ERROR	article/query.go:42	字符串转换时间失败:parsing time "" as "2006-01-02 15:04:05": cannot parse "" as "2006"
+2023-09-03T16:30:01.059+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:32:13.042+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:47:01.178+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:49:02.987+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:49:40.690+0800	ERROR	article/delete.go:16	字符串转数字失败:strconv.Atoi: parsing "": invalid syntax
+2023-09-03T16:49:54.126+0800	ERROR	article/delete.go:16	字符串转数字失败:strconv.Atoi: parsing "": invalid syntax
+2023-09-03T16:53:12.826+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T16:53:15.753+0800	ERROR	article/delete.go:17	绑定数据失败:json: cannot unmarshal string into Go struct field DeleteData.id of type int
+2023-09-03T16:56:21.866+0800	ERROR	BLACKBLOG/main.go:15	撞大运咯
+2023-09-03T18:32:18.343+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-03T18:43:20.163+0800	ERROR	article/delete.go:18	绑定数据失败:json: cannot unmarshal number into Go struct field DeleteData.id of type string
+2023-09-03T18:47:56.024+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-03T19:32:19.430+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-03T19:50:26.466+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-03T20:36:18.306+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-03T20:50:48.339+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-04T13:02:34.527+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-04T13:18:00.952+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-04T13:45:06.608+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-04T14:18:45.913+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-04T17:23:57.407+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-04T17:26:07.037+0800	ERROR	user/login.go:26	绑定数据失败:Key: 'LoginData.Username' Error:Field validation for 'Username' failed on the 'required' tag
+Key: 'LoginData.Password' Error:Field validation for 'Password' failed on the 'required' tag
+2023-09-04T17:26:40.156+0800	ERROR	user/login.go:26	绑定数据失败:Key: 'LoginData.Username' Error:Field validation for 'Username' failed on the 'required' tag
+Key: 'LoginData.Password' Error:Field validation for 'Password' failed on the 'required' tag
+2023-09-04T17:27:03.498+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-09-07T21:18:07.360+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-07T21:19:14.110+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-07T21:28:00.534+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-09T18:24:21.530+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-09T21:20:29.487+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2023-09-10T09:45:53.844+0800	ERROR	dao/connect.go:18	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-09-10T09:45:53.847+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2023-09-10T10:26:22.622+0800	ERROR	dao/connect.go:18	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-09-10T10:26:22.623+0800	ERROR	BLACKBLOG/main.go:27	撞大运咯
+2023-09-10T10:28:22.347+0800	ERROR	dao/connect.go:18	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-09-10T10:28:22.348+0800	ERROR	BLACKBLOG/main.go:27	撞大运咯
+2023-09-10T10:34:30.376+0800	ERROR	dao/connect.go:18	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-09-10T10:34:30.377+0800	ERROR	BLACKBLOG/main.go:27	撞大运咯
+2023-09-10T10:37:56.361+0800	ERROR	dao/connect.go:18	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-09-10T10:37:56.361+0800	ERROR	BLACKBLOG/main.go:27	撞大运咯
+2023-09-10T11:02:13.098+0800	ERROR	dao/connect.go:18	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-09-10T11:02:13.099+0800	ERROR	BLACKBLOG/main.go:27	撞大运咯
+2023-09-10T15:54:29.613+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T15:57:46.306+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T15:58:17.620+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T16:05:06.101+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T16:17:42.841+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T18:30:56.434+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T20:35:19.862+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T21:28:21.798+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T21:46:14.781+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T21:52:05.111+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-10T21:53:28.703+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-20T13:40:49.139+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-20T17:32:02.359+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-20T19:16:53.994+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-20T19:16:58.287+0800	ERROR	user/login.go:13	绑定数据失败:EOF
+2023-09-20T19:17:24.333+0800	ERROR	user/login.go:13	绑定数据失败:EOF
+2023-09-20T19:18:56.668+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-20T19:19:47.595+0800	ERROR	user/login.go:13	绑定数据失败:EOF
+2023-09-20T19:21:40.495+0800	ERROR	user/login.go:13	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-09-20T19:21:57.416+0800	ERROR	user/login.go:13	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-09-20T19:23:28.401+0800	ERROR	user/login.go:13	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-09-20T19:53:32.383+0800	ERROR	user/login.go:13	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-09-20T19:54:15.285+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-20T19:54:30.661+0800	ERROR	user/login.go:13	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-09-20T20:01:42.101+0800	ERROR	user/login.go:13	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-09-20T20:03:55.778+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-20T20:14:41.984+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-09-30T21:21:47.102+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-01T19:28:31.898+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-01T21:38:58.251+0800	ERROR	user/login.go:13	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-10-01T22:05:18.334+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-01T22:07:29.075+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-01T22:10:42.617+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-07T20:46:10.894+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-07T20:54:54.449+0800	ERROR	user/login.go:13	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-10-07T21:41:53.288+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-07T21:54:53.385+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-10T20:07:27.345+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-10T20:14:31.823+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-10-10T20:45:42.325+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-10-11T18:03:54.482+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-12T21:05:08.216+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-12T21:07:51.464+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-12T21:21:26.321+0800	ERROR	user/login.go:15	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-10-13T14:44:25.268+0800	ERROR	dao/connect.go:20	数据库连接失败: dial tcp [::1]:3306: connectex: No connection could be made because the target machine actively refused it.
+2023-10-13T14:44:25.270+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-10-13T14:45:56.087+0800	ERROR	user/login.go:15	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-10-13T14:48:38.833+0800	ERROR	user/login.go:15	绑定数据失败:invalid character 'u' looking for beginning of value
+2023-10-13T19:53:27.222+0800	ERROR	user/login.go:15	绑定数据失败:EOF
+2023-11-18T20:42:45.287+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-18T20:51:34.742+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-11-18T20:51:34.744+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-11-18T20:51:51.420+0800	ERROR	user/login.go:15	绑定数据失败:invalid character '}' looking for beginning of object key string
+2023-11-18T20:55:30.565+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T21:28:43.216+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T21:29:33.784+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T21:31:39.281+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-11-20T21:31:39.283+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-11-20T21:42:17.500+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T21:45:45.893+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T21:49:36.448+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T21:57:41.676+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T21:58:36.676+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T22:03:17.869+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T22:09:01.313+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T22:10:16.452+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-20T22:12:27.584+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-21T21:31:36.111+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-21T21:35:06.522+0800	ERROR	user/uploadimage.go:23	上传文件失败:http: no such file
+2023-11-21T21:35:53.257+0800	ERROR	user/uploadimage.go:39	创建文件目录失败:mkdir /upload20231121: Access is denied.
+2023-11-21T21:52:51.912+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-21T22:05:12.239+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-21T22:08:39.527+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-21T22:11:40.420+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-21T22:12:08.378+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-21T22:58:21.357+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-21T22:59:56.332+0800	ERROR	dao/add.go:11	新增数据失败:Error 1054 (42S22): Unknown column 'user_id' in 'field list'
+2023-11-21T23:02:46.049+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T10:04:19.334+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T10:06:20.822+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-11-22T13:41:23.261+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T13:59:13.496+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:04:30.762+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:09:26.291+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:10:13.981+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:10:43.033+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:12:36.453+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:14:24.259+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:15:49.153+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:18:18.985+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-11-22T14:19:26.084+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-04T20:05:59.473+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-04T20:31:59.497+0800	ERROR	user/login.go:24	绑定数据失败:Key: 'LoginData.Username' Error:Field validation for 'Username' failed on the 'required' tag
+Key: 'LoginData.Password' Error:Field validation for 'Password' failed on the 'required' tag
+2023-12-07T09:43:49.421+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-08T16:39:41.322+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-08T16:47:12.501+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:57:44.799+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:57:45.655+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:57:45.837+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:57:46.100+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:57:49.829+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:57:50.083+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:58:58.562+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:58:58.971+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:58:59.151+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:58:59.315+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:58:59.465+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:59:12.552+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:59:12.952+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T16:59:13.513+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:05:29.283+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:05:29.600+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:05:29.784+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:05:29.961+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:05:47.608+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:05:48.094+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:05:48.273+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:05:48.437+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:06:54.546+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:06:55.127+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:07:28.445+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:07:29.908+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:07:30.289+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:07:30.521+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:08:53.853+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:08:54.408+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:08:54.586+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:08:54.969+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:08:55.172+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:08:55.381+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:09:05.797+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:09:05.999+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:09:06.194+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:10:58.487+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:29:15.963+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:29:58.550+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T17:46:08.908+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T18:51:41.182+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T18:51:41.185+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T18:53:24.748+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T18:55:46.220+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-08T22:49:46.669+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T09:24:04.081+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-09T11:15:36.708+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T11:23:40.873+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:17:44.710+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:19:49.110+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:19:59.562+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:19:59.564+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:20:24.906+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:20:24.908+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:21:31.739+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:21:39.901+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:24:46.081+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-09T14:24:46.083+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-10T08:38:17.674+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-10T15:44:15.567+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-10T15:46:28.764+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-10T15:47:08.360+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-10T15:52:56.286+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-16T15:51:14.055+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-17T16:10:32.407+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-17T17:09:28.052+0800	ERROR	user/register.go:23	绑定数据失败:Key: 'RegisterData.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag
+2023-12-17T17:09:47.378+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T17:15:57.587+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:08:22.148+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:08:22.162+0800	ERROR	dao/add.go:11	新增数据失败:Error 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`black`.`images`, CONSTRAINT `1` FOREIGN KEY (`id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2023-12-17T18:10:22.129+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:10:22.133+0800	ERROR	dao/add.go:11	新增数据失败:Error 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`black`.`images`, CONSTRAINT `1` FOREIGN KEY (`id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+2023-12-17T18:14:14.095+0800	ERROR	user/register.go:23	绑定数据失败:Key: 'RegisterData.Username' Error:Field validation for 'Username' failed on the 'required' tag
+Key: 'RegisterData.Password' Error:Field validation for 'Password' failed on the 'required' tag
+2023-12-17T18:14:44.324+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:14:44.326+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:15:55.957+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:27:12.716+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:29:20.041+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:32:12.328+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-17T18:32:40.983+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:34:14.281+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:34:27.902+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2023-12-17T18:35:52.410+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2023-12-17T18:54:30.219+0800	ERROR	article/alter.go:24	绑定数据失败:Key: 'AlterData.OldTitle' Error:Field validation for 'OldTitle' failed on the 'required' tag
+2023-12-17T18:54:54.454+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-13T15:16:23.530+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-13T17:48:27.264+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-13T20:10:21.012+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-16T19:30:06.141+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T10:44:47.695+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T11:14:22.798+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T12:28:01.250+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T12:29:32.775+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T12:31:21.688+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T12:31:27.607+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:31:59.851+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:32:28.693+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:34:14.502+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:35:07.787+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:40:00.883+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:40:11.350+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:40:15.183+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:40:17.196+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:40:19.449+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:40:27.712+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:40:30.825+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:40:57.305+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:46:58.606+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T12:47:55.334+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T12:50:27.170+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:54:18.094+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:54:20.461+0800	ERROR	article/query.go:38	绑定数据失败:EOF
+2024-01-17T12:57:18.008+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-17T12:58:52.616+0800	ERROR	article/query.go:39	绑定数据失败:EOF
+2024-01-17T12:59:15.262+0800	ERROR	article/query.go:39	绑定数据失败:EOF
+2024-01-17T13:00:49.562+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-18T10:00:50.589+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-18T11:00:48.431+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-18T15:03:47.902+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-18T20:40:47.656+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-19T11:05:30.849+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-20T16:01:16.848+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-22T17:33:25.995+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-24T14:17:36.941+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-25T16:09:41.641+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-26T10:20:34.169+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-26T14:15:48.858+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-26T14:28:12.373+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T14:36:22.164+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T14:52:16.469+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T14:57:45.939+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T14:58:34.083+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T15:01:00.918+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T15:29:09.733+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T15:43:51.029+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-26T15:51:52.903+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-26T15:53:18.872+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-26T15:54:23.121+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T16:05:26.335+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-26T16:12:04.271+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T16:12:30.682+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-26T16:12:51.340+0800	ERROR	dao/query.go:12	查询数据失败：record not found
+2024-01-26T16:16:10.957+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-01-31T14:56:02.772+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-02-15T16:36:46.843+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
+2024-02-19T15:47:46.921+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
