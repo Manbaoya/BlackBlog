@@ -10,7 +10,8 @@ import (
 
 func JwtAuthMiddleware() func(c *gin.Context) {
 	return func(c *gin.Context) {
-		authHeader := c.Request.Header.Get("authorizatiowsn")
+		//authHeader := c.Request.Header.Get("authorizatiowsn") 浏览器
+		authHeader := c.Request.Header.Get("Authorization")
 		if authHeader == "" {
 			c.JSON(200, controller.EmptyAuth)
 			c.Abort()

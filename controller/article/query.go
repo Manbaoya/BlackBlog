@@ -1,13 +1,13 @@
 package article
 
 import (
+	"BLACKBLOG/config"
 	"BLACKBLOG/controller"
 	"BLACKBLOG/controller/tool"
 	"BLACKBLOG/dao"
 	"BLACKBLOG/log"
 	"github.com/gin-gonic/gin"
 	"io"
-	"strconv"
 	"time"
 )
 
@@ -16,9 +16,11 @@ type QueryData struct {
 	Author    string `form:"author" json:"author" url:"author" default:""`             //按作者查询
 	StartTime string `form:"start_time" json:"start_time" url:"start_time" default:""` //按时间查询
 	EndTime   string `form:"end_time" json:"end_time"  url:"end_time" default:""`
-	Page      int    `json:"page"  url:"page" default:"0"`
-	Sort      string `json:"sort" url:"sort" default:""`
+	//Page      int        `form:"page" json:"page" url:"page" default:"0"`
+	Sort  string `form:"sort" json:"sort" url:"sort" default:""`
+	Token string `form:"page_token" json:"page_token" default:""` //基于游标分页
 }
+
 type ReArticle struct {
 	Id      int
 	Title   string
@@ -28,27 +30,34 @@ type ReArticle struct {
 	Sort    string
 }
 type Result struct {
-	Data    []ReArticle
-	Respond controller.Respond
+	Data      []ReArticle
+	Respond   controller.Respond
+	PageToken string `json:"page_token" default:""`
 }
 
 func Query(c *gin.Context) {
 	var data QueryData
-	data.Title = c.DefaultQuery("title", "")
-	data.Author = c.DefaultQuery("author", "")
-	data.Sort = c.DefaultQuery("sort", "")
-	data.StartTime = c.DefaultQuery("start_time", "")
-	data.EndTime = c.DefaultQuery("end_time", "")
+	//data.Title = c.DefaultQuery("title", "")
+	//data.Author = c.DefaultQuery("author", "")
+	//data.Sort = c.DefaultQuery("sort", "")
+	//data.StartTime = c.DefaultQuery("start_time", "")
+	//data.EndTime = c.DefaultQuery("end_time", "")
 	var err error
-	data.Page, err = strconv.Atoi(c.DefaultQuery("page", "0"))
-	//err := c.ShouldBind(&data)
+	//data.Page, _ = strconv.Atoi(c.DefaultQuery("page", "0"))
+	err = c.ShouldBindJSON(&data)
 	if err != nil && err != io.EOF {
 		log.SugaredLogger.Errorf("绑定数据失败:%s", err)
 		c.JSON(200, controller.FailedBind)
 		return
 	}
 
-	limit, offset := tool.Pagination(data.Page)
+	//limit, offset := tool.Pagination(data.Page)  //基于偏移量分页
+	page := tool.Token(data.Token).Decode()
+
+	if page.PageSize == 0 {
+		page.PageSize = config.Conf.DataBase.Limit
+	}
+
 	var db = dao.DB
 	//按照作者查询
 	if data.Author != "" {
@@ -61,7 +70,8 @@ func Query(c *gin.Context) {
 	//按时间查询
 	//判断时间范围是否合理
 	if data.StartTime != "" && data.EndTime != "" && data.StartTime > data.EndTime {
-		c.JSON(200, Result{nil, controller.BadTime})
+		//c.JSON(200, Result{nil, controller.BadTime})
+		c.JSON(200, Result{nil, controller.BadTime, ""}) //基于游标
 		return
 	}
 
@@ -95,9 +105,11 @@ func Query(c *gin.Context) {
 		db = db.Where("sort=?", data.Sort)
 	}
 	db = db.Order("time")
-	results, ok := dao.Querys(db, dao.Article{}, limit, offset)
+	results, newCur, ok := dao.Querys(db, dao.Article{}, page.PageSize, page.NextId)
+	//results, ok := dao.Querys(db, dao.Article{}, limit, offset)  //基于偏移量
 	if !ok {
-		c.JSON(200, Result{nil, controller.FailedQuery})
+		//c.JSON(200, Result{nil, controller.FailedQuery})
+		c.JSON(200, Result{nil, controller.FailedQuery, ""})
 		return
 
 	}
@@ -113,6 +125,7 @@ func Query(c *gin.Context) {
 		re[i].Sort = v.Sort
 
 	}
-	c.JSON(200, Result{re, controller.OK})
-
+	pageToken := tool.Page{NextId: newCur, NextTimeAtuTC: time.Now().Unix(), PageSize: page.PageSize}.Encode()
+	c.JSON(200, Result{re, controller.OK, string(pageToken)})
+	//c.JSON(200, Result{re, controller.OK})
 }
