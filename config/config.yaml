@@ -14,6 +14,13 @@ DataBase:
   Loc: "Local"
   Limit: 15
 
+#redis
+Redis:
+  Addr: "localhost:6379"
+  Password: ""
+  DB:        0
+  PoolSize:  20
+
 #日志
 Log:
   MaxSize:    1

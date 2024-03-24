@@ -27,10 +27,10 @@ func Connect() {
 
 func RedisConnect() {
 	RDB = redis.NewClient(&redis.Options{
-		Addr:     "localhost:6379",
-		Password: "",
-		DB:       0,
-		PoolSize: 20,
+		Addr:     Conf.Redis.Addr,
+		Password: Conf.Redis.Password,
+		DB:       Conf.Redis.DB,
+		PoolSize: Conf.Redis.PoolSize,
 	})
 
 }

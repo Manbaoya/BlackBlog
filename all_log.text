@@ -2379,3 +2379,8 @@ Key: 'RegisterData.Password' Error:Field validation for 'Password' failed on the
 2024-03-20T12:26:53.601+0800	ERROR	article/query.go:49	绑定数据失败:invalid character '}' looking for beginning of object key string
 2024-03-20T12:26:53.601+0800	INFO	log/log.go:72	/l/query_a	{"status": 200, "method": "GET", "path": "/l/query_a", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0006848}
 2024-03-20T12:26:58.780+0800	INFO	log/log.go:72	/l/query_a	{"status": 200, "method": "GET", "path": "/l/query_a", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0052651}
+2024-03-24T18:48:52.166+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-03-24T18:51:38.056+0800	INFO	log/log.go:72	/ul/login	{"status": 404, "method": "GET", "path": "/ul/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0}
+2024-03-24T18:51:41.632+0800	INFO	log/log.go:72	/ul/login	{"status": 200, "method": "POST", "path": "/ul/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1505027}
+2024-03-24T18:52:19.694+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-03-24T18:52:44.696+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯

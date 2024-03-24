@@ -484,3 +484,6 @@ Key: 'RegisterData.Password' Error:Field validation for 'Password' failed on the
 2024-03-20T12:25:39.528+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
 2024-03-20T12:26:48.897+0800	ERROR	BLACKBLOG/main.go:29	撞大运咯
 2024-03-20T12:26:53.601+0800	ERROR	article/query.go:49	绑定数据失败:invalid character '}' looking for beginning of object key string
+2024-03-24T18:48:52.166+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-03-24T18:52:19.694+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-03-24T18:52:44.696+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯

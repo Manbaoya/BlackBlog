@@ -19,13 +19,14 @@ import (
 //	@license.name	Apache 2.0
 //	@license.url	http://www.apache.org/licenses/LICENSE-2.0.html
 
-//	@host		8080
-//	@BasePath	localhost:8080
+// @host		8080
+// @BasePath	localhost:8080
+
 func main() {
 
-	config.GetConfig() //获取全局配置
-	log.InitLog()      //日志初始化
-	dao.Connect()      //
+	go config.GetConfig() //获取全局配置
+	log.InitLog()         //日志初始化
+	dao.Connect()         // 数据库连接
 	log.SugaredLogger.Errorf("撞大运咯")
 	app.InitRouter() //路由初始化
 
