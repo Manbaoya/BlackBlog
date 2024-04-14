@@ -3,11 +3,12 @@ package dao
 import "time"
 
 type T interface {
-	User | Article | Image
+	User | Article | Image | Comment
 }
-type S interface {
-	[]Article
-}
+
+//	type S interface {
+//		[]Article | []Comment
+//	}
 type User struct {
 	Id       int    `gorm:"id"`
 	Username string `gorm:"username"`
@@ -26,4 +27,12 @@ type Image struct {
 	Id   int    `gorm:"id"`
 	Name string `gorm:"name"`
 	Path string `gorm:"path"`
+}
+
+type Comment struct {
+	Id         int       `gorm:"id"`
+	ArticleId  int       `gorm:"article_id"`
+	UserId     int       `gorm:"user_id"`
+	Content    string    `gorm:"content"`
+	CreateTime time.Time `gorm:"create_time"`
 }

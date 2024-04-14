@@ -105,7 +105,7 @@ func Query(c *gin.Context) {
 		db = db.Where("sort=?", data.Sort)
 	}
 	db = db.Order("time")
-	results, newCur, ok := dao.Querys(db, dao.Article{}, page.PageSize, page.NextId)
+	results, newCur, ok := dao.QuerysByCur(db, dao.Article{}, page.PageSize, page.NextId)
 	//results, ok := dao.Querys(db, dao.Article{}, limit, offset)  //基于偏移量
 	if !ok {
 		//c.JSON(200, Result{nil, controller.FailedQuery})

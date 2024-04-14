@@ -2384,3 +2384,67 @@ Key: 'RegisterData.Password' Error:Field validation for 'Password' failed on the
 2024-03-24T18:51:41.632+0800	INFO	log/log.go:72	/ul/login	{"status": 200, "method": "POST", "path": "/ul/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1505027}
 2024-03-24T18:52:19.694+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
 2024-03-24T18:52:44.696+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-04-01T20:13:44.408+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-04-01T20:13:50.508+0800	INFO	log/log.go:72	/ul/login	{"status": 200, "method": "POST", "path": "/ul/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.2472641}
+2024-04-01T20:15:00.795+0800	INFO	log/log.go:72	/l/create_c	{"status": 404, "method": "POST", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0}
+2024-04-01T20:15:04.560+0800	ERROR	comments/create.go:21	绑定数据失败:json: cannot unmarshal string into Go struct field CreateComment.article_id of type int
+2024-04-01T20:15:04.561+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0192666}
+2024-04-01T20:15:31.313+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0209364}
+2024-04-01T21:18:58.570+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-04-01T21:22:29.821+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0466937}
+2024-04-01T21:31:48.672+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-04-01T21:32:13.059+0800	INFO	log/log.go:72	/l/delete_c	{"status": 404, "method": "GET", "path": "/l/delete_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0}
+2024-04-01T21:32:16.895+0800	ERROR	comments/delete.go:15	绑定数据失败:strconv.Atoi: parsing "": invalid syntax
+2024-04-01T21:32:16.963+0800	INFO	log/log.go:72	/l/delete_c	{"status": 200, "method": "DELETE", "path": "/l/delete_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0681345}
+2024-04-01T21:33:37.408+0800	INFO	log/log.go:72	/l/delete_c	{"status": 200, "method": "DELETE", "path": "/l/delete_c", "query": "comment_id=2", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0178205}
+2024-04-14T16:30:41.186+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T16:35:00.799+0800	INFO	log/log.go:72	/ul/login	{"status": 200, "method": "POST", "path": "/ul/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.3416978}
+2024-04-14T16:35:32.773+0800	ERROR	user/logout.go:30	添加黑名单：sadd blacklist eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2Fpc2hpIiwiaXNzIjoi5ruh5a6d5ZGAIiwiZXhwIjoxNzEzMTcwMTAwfQ.ueVJiljbjzlAPoFhkP4wpIxD-305s_EODGBOFBEnlp4: 1
+2024-04-14T16:35:32.775+0800	INFO	log/log.go:72	/l/logout	{"status": 200, "method": "GET", "path": "/l/logout", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1223452}
+2024-04-14T16:37:06.270+0800	ERROR	middleware/JWT.go:32	查询黑名单错误：%!s(<nil>)
+2024-04-14T16:37:06.332+0800	ERROR	user/logout.go:30	添加黑名单：sadd blacklist eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2Fpc2hpIiwiaXNzIjoi5ruh5a6d5ZGAIiwiZXhwIjoxNzEzMTcwMTAwfQ.ueVJiljbjzlAPoFhkP4wpIxD-305s_EODGBOFBEnlp4: 0
+2024-04-14T16:37:06.333+0800	INFO	log/log.go:72	/l/logout	{"status": 200, "method": "GET", "path": "/l/logout", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.7883409}
+2024-04-14T16:38:53.543+0800	INFO	log/log.go:72	/ul/login	{"status": 200, "method": "POST", "path": "/ul/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.2564274}
+2024-04-14T16:39:25.638+0800	ERROR	user/logout.go:30	添加黑名单：sadd blacklist eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2Fpc2hpIiwiaXNzIjoi5ruh5a6d5ZGAIiwiZXhwIjoxNzEzMTcwMzMzfQ.JdtOvJYGUKpW9VAOH7X8UkRrjqxv9_fVMVq98alp-rU: 1
+2024-04-14T16:39:25.638+0800	INFO	log/log.go:72	/l/logout	{"status": 200, "method": "GET", "path": "/l/logout", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0438592}
+2024-04-14T16:41:40.741+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T16:41:55.167+0800	INFO	log/log.go:72	/ul/login	{"status": 200, "method": "POST", "path": "/ul/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.147928}
+2024-04-14T16:42:40.671+0800	INFO	log/log.go:72	/l/logout	{"status": 200, "method": "GET", "path": "/l/logout", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1073292}
+2024-04-14T19:24:40.776+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T19:25:01.269+0800	INFO	log/log.go:72	/ul/login	{"status": 200, "method": "POST", "path": "/ul/login", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0983629}
+2024-04-14T19:27:58.999+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1330799}
+2024-04-14T20:05:30.585+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T20:19:22.804+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.2141959}
+2024-04-14T21:02:02.323+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:02:38.758+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1639172}
+2024-04-14T21:02:43.573+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0168491}
+2024-04-14T21:02:48.749+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0192479}
+2024-04-14T21:02:53.014+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0141621}
+2024-04-14T21:02:59.614+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0161797}
+2024-04-14T21:03:03.376+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0154602}
+2024-04-14T21:03:08.193+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0144875}
+2024-04-14T21:03:23.351+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0235391}
+2024-04-14T21:03:30.253+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0160056}
+2024-04-14T21:03:34.795+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0126935}
+2024-04-14T21:03:49.403+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0203625}
+2024-04-14T21:03:55.448+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0147974}
+2024-04-14T21:03:59.775+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0117286}
+2024-04-14T21:04:02.440+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0107615}
+2024-04-14T21:04:15.797+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0262013}
+2024-04-14T21:04:43.696+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0148855}
+2024-04-14T21:04:47.184+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0315992}
+2024-04-14T21:04:50.308+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0150161}
+2024-04-14T21:06:19.587+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1206982}
+2024-04-14T21:06:49.433+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0480939}
+2024-04-14T21:06:54.681+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0184646}
+2024-04-14T21:07:37.312+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0298918}
+2024-04-14T21:08:46.049+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:08:54.817+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1334748}
+2024-04-14T21:09:20.434+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0223778}
+2024-04-14T21:12:44.605+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:12:56.967+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.1446519}
+2024-04-14T21:14:52.601+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:15:03.015+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0589925}
+2024-04-14T21:15:34.093+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:16:26.277+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:16:28.166+0800	INFO	log/log.go:72	/l/create_c	{"status": 200, "method": "GET", "path": "/l/create_c", "query": "", "ip": "::1", "user-agent": "PostmanRuntime/7.29.2", "errors": "", "cost": 0.0468985}

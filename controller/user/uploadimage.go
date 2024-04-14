@@ -58,7 +58,7 @@ func UploadImage(c *gin.Context) {
 	db := dao.DB
 	db.Where("user_id=?", id)
 	if _, ok := dao.Query(db, dao.Image{Id: id}); !ok {
-		if k := dao.Add(dao.DB, dao.Image{Id: id, Name: fileUnixName, Path: saveDir}); !k {
+		if _, k := dao.Add(dao.DB, dao.Image{Id: id, Name: fileUnixName, Path: saveDir}); !k {
 			c.JSON(200, ImageResponse{controller.FailedCreate, imageUrl})
 			return
 		}

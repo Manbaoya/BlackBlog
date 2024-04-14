@@ -14,6 +14,7 @@ var (
 	EmptyAuth    = Respond{202, "请求头中auth为空"}
 	ErrorAuth    = Respond{203, "请求头中auth错误"}
 	InvalidToken = Respond{204, "无效的Token"}
+	InvalidLogin = Respond{215, "非法登录"}
 
 	InvalidUserName = Respond{205, "用户名不存在"}
 	ErrorPassword   = Respond{206, "密码错误"}
@@ -32,11 +33,11 @@ var (
 	//服务器
 	FailedCreateToken = Respond{501, "生成token失败"}
 	FailedGetId       = Respond{502, "获取id失败"}
-	FailedGetUsername = Respond{502, "获取用户名失败"}
-	FailedEncrypt     = Respond{503, "密码加密失败"}
-	FailedDelete      = Respond{504, "删除失败"}
-	FailedQuery       = Respond{505, "查询失败"}
-	FailedCreate      = Respond{506, "创建失败"}
-	FailedAlter       = Respond{507, "修改失败"}
+	FailedGetUsername = Respond{503, "获取用户名失败"}
+	FailedEncrypt     = Respond{504, "密码加密失败"}
+	FailedDelete      = Respond{505, "删除失败"}
+	FailedQuery       = Respond{506, "查询失败"}
+	FailedCreate      = Respond{507, "创建失败"}
+	FailedAlter       = Respond{508, "修改失败"}
 	FailedSaved       = Respond{509, "保存文件失败"}
 )

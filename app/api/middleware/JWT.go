@@ -2,6 +2,8 @@ package middleware
 
 import (
 	"BLACKBLOG/controller"
+	"BLACKBLOG/dao"
+	"BLACKBLOG/log"
 	"github.com/gin-gonic/gin"
 	"strings"
 )
@@ -22,6 +24,12 @@ func JwtAuthMiddleware() func(c *gin.Context) {
 		if !(len(parts) == 2 && parts[0] == "Bearer") {
 			c.JSON(200, controller.ErrorAuth)
 			c.Abort()
+			return
+		}
+
+		if ok, err := dao.RDB.SIsMember(dao.Ctx, "blacklist", parts[1]).Result(); ok {
+			log.SugaredLogger.Errorf("查询黑名单错误：%s", err)
+			c.JSON(200, controller.InvalidLogin)
 			return
 		}
 		mc, err := controller.ParseToken(parts[1])

@@ -3,6 +3,7 @@ package dao
 import (
 	. "BLACKBLOG/config"
 	"BLACKBLOG/log"
+	"context"
 	"fmt"
 	"github.com/go-redis/redis/v8"
 	"gorm.io/driver/mysql"
@@ -11,6 +12,7 @@ import (
 
 var DB *gorm.DB
 var RDB *redis.Client
+var Ctx = context.Background()
 
 func Connect() {
 	dsn := Conf.DataBase.User + ":" + Conf.DataBase.Password + "@tcp(" + Conf.Server.Address + ":" + Conf.DataBase.Port + ")/" + Conf.DataBase.Name + "?charset=" + Conf.DataBase.Charset + "&parseTime=" + Conf.DataBase.ParseTime + "&loc=" + Conf.DataBase.Loc

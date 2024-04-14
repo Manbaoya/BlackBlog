@@ -487,3 +487,22 @@ Key: 'RegisterData.Password' Error:Field validation for 'Password' failed on the
 2024-03-24T18:48:52.166+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
 2024-03-24T18:52:19.694+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
 2024-03-24T18:52:44.696+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-04-01T20:13:44.408+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-04-01T20:15:04.560+0800	ERROR	comments/create.go:21	绑定数据失败:json: cannot unmarshal string into Go struct field CreateComment.article_id of type int
+2024-04-01T21:18:58.570+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-04-01T21:31:48.672+0800	ERROR	BLACKBLOG/main.go:30	撞大运咯
+2024-04-01T21:32:16.895+0800	ERROR	comments/delete.go:15	绑定数据失败:strconv.Atoi: parsing "": invalid syntax
+2024-04-14T16:30:41.186+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T16:35:32.773+0800	ERROR	user/logout.go:30	添加黑名单：sadd blacklist eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2Fpc2hpIiwiaXNzIjoi5ruh5a6d5ZGAIiwiZXhwIjoxNzEzMTcwMTAwfQ.ueVJiljbjzlAPoFhkP4wpIxD-305s_EODGBOFBEnlp4: 1
+2024-04-14T16:37:06.270+0800	ERROR	middleware/JWT.go:32	查询黑名单错误：%!s(<nil>)
+2024-04-14T16:37:06.332+0800	ERROR	user/logout.go:30	添加黑名单：sadd blacklist eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2Fpc2hpIiwiaXNzIjoi5ruh5a6d5ZGAIiwiZXhwIjoxNzEzMTcwMTAwfQ.ueVJiljbjzlAPoFhkP4wpIxD-305s_EODGBOFBEnlp4: 0
+2024-04-14T16:39:25.638+0800	ERROR	user/logout.go:30	添加黑名单：sadd blacklist eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjUsInVzZXJuYW1lIjoia2Fpc2hpIiwiaXNzIjoi5ruh5a6d5ZGAIiwiZXhwIjoxNzEzMTcwMzMzfQ.JdtOvJYGUKpW9VAOH7X8UkRrjqxv9_fVMVq98alp-rU: 1
+2024-04-14T16:41:40.741+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T19:24:40.776+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T20:05:30.585+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:02:02.323+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:08:46.049+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:12:44.605+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:14:52.601+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:15:34.093+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯
+2024-04-14T21:16:26.277+0800	ERROR	BLACKBLOG/main.go:31	撞大运咯

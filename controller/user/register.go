@@ -82,10 +82,10 @@ func Register(c *gin.Context) {
 		Password: data.Password,
 		Phone:    data.Phone,
 	}
-	if ok := dao.Add(dao.DB, re); !ok {
+	if _, ok := dao.Add(dao.DB, re); !ok {
 		c.JSON(200, controller.FailedCreate)
 		return
 	}
 	c.JSON(200, controller.OK)
-	
+
 }

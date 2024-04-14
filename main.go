@@ -27,7 +27,10 @@ func main() {
 	go config.GetConfig() //获取全局配置
 	log.InitLog()         //日志初始化
 	dao.Connect()         // 数据库连接
+	dao.RedisConnect()    //redis连接
 	log.SugaredLogger.Errorf("撞大运咯")
 	app.InitRouter() //路由初始化
+	//dao.RedisConnect()
+	//dao.SetHotComments()
 
 }

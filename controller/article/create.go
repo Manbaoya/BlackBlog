@@ -45,7 +45,7 @@ func Create(c *gin.Context) {
 		Time:    data.Time,
 		Sort:    data.Sort,
 	}
-	if ok := dao.Add(dao.DB, result); !ok {
+	if _, ok := dao.Add(dao.DB, result); !ok {
 		c.JSON(200, controller.FailedCreate)
 		return
 	}
